@@ -1,0 +1,68 @@
+16 October 2024
+- Updated Invoke-PowerShellTcp.ps1 in the Tools.zip to the latest one.
+- Updated Tools.zip and copied Get-MgApplicationProxyApplication.ps1 and Get-MgApplicationProxyAssignedUsersAndGroups.ps1 to C:\AzAD\Tools directory of student VMs. 
+
+Updated in Lab Manual and Slides
+- Updated Learning Objective - 17 to use Evilginx3 and MFA is now enforced on the target user Roy.
+- Updated Learning Objective - 23 to use Mg Module and Graph API in place of Azure AD module and AADGraph.
+
+- Updated Walkthrough videos for LO - 17 and LO - 23.
+
+11 October 2024
+- Updated walkthrough videos for LO - 9, LO - 19 and LO - 22.
+- Updated Tools.zip and copied enumerate_dynamic_groups_x.py and invite_guest_x.py to C:\AzAD\Tools directory of student VMs. 
+- Included Pre-built queries for AzureHound.
+Changes in lab manual to address MFA enforcement. 
+- In Learning Objective - 22, credentials for Thomas can be used only from the OS command injection on the virusscanner web application.
+- In Learning Objective - 22, students need to register MFA for studentX@defcorpextcontractors.onmicrosoft.com when signing in to DefCorp IT.
+
+4 October 2024
+Changes in lab manual to address MFA enforcement. 
+- In Learning Objective - 9, students need to register MFA for studentX@defcorpextcontractors.onmicrosoft.com
+- In Learning Objective - 17, students need to register MFA for VMContributorX@defcorphq.onmicrosoft.com
+- In Learning Objective - 19, use of Storage Explorer is removed.
+- In Learning Objective - 23, students need to register MFA for studentX@defcorphq.onmicrosoft.com
+
+1 October 2024
+- Updated AMSI bypass in the lab manual for Learning Objective - 23. 
+
+13 September 2024
+- Updated 365-Stealer interface and functionality. Updated screenshots in the lab manual for 365-stealer. 
+- Updated Tools.zip to include new 365-stealer.
+- Updated slides and lab manual to use 'Entra ID' in place of 'Azure AD' in most of the places. 
+- Added Lab Manual in the Word format for easy copy and paste. 
+- Updated walkthrough video for Learning-Objective 9 to include new 365-stealer. 
+
+5 September 2024
+- Added videos on how to connect to the lab. Check out the 'ConnectingToTheLab' directory.
+
+20 August 2024
+- Updated course videos. Replaced the Azure AD module with Mg module.
+- Old course videos moved to CourseVideos -> Old_March2024
+
+26 July 2024
+- Updated Tools.zip. Updated Roadtools.zip, mimikatz.exe and AMSI bypass. 
+
+20 June 2024
+- Fixed typo in commands on Slide 60 (get group members), Slide 62 (get active devices) and Slide 63 (get registered devices for a user)
+
+30 May 2024
+- Replaced Azure AD module with Mg Module in slides and lab manual. LO - 8 (AzureHound) and LO - 23 still uses Azure AD module. 
+- Updated Walkthrough Videos for LO-3, 9, 16, 17, 18 and 22 to replace Azure AD module. 
+
+21 March 2024
+- Added updated course videos with captions.
+
+1 February 2024
+- Fixed a typo in Learning Objective - 12. The correct parameter to the Connect-AzAccount is 'MicrosoftGraphAccessToken'.
+
+22 December 2023
+- Changes to slides for Pass-the-PRT attack. Mimikatz can extract PRT. 
+- Changes to Learning Objective - 21. Added use of Mimikatz and roadtx for Pass-the-PRT attack.
+
+16 November 2023
+- Added BloodHound Community Edition details to Slides and Lab Manual in Learning Objective - 8
+- Updated Walkthrough video of Learning Objective - 8 to include BloodHound Community Edition
+
+13 November 2023
+- Fixed minor typos in the Slides
